@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Механика "Милуновић"</title>
+</head>
+<body>
+    <h1>Механика "Милуновић"</h1>
+    <h3>Сигурна кућа за Ваше возило</h3>
+    <div class="container">
+        <a href="#" class="menuitem">Почетна страна</a>
+        <a href="cenovnik.html" class="menuitem">Ценовник</a>
+        <a href="onama.html" class="menuitem">О нама</a>
+        <a href="kontakt.html" class="menuitem">Контакт</a>
+    </div>
+    <div class="container gallery">
+        <div class="imgandbuttons">
+            <button class="imgrot" onclick="prevImage()">Претходна</button>
+            <img src="images/galerija01.jpg" alt="Слика" id="mainimage">
+            <button class="imgrot" onclick="nextImage()">Следећа</button>
+        </div>
+        <div class="rotationindexes">
+            <span class="rotation active"></span>
+            <span class="rotation"></span>
+            <span class="rotation"></span>
+            <span class="rotation"></span>
+            <span class="rotation"></span>
+            <span class="rotation"></span>
+        </div>
+    </div>
+    <div class="container brands">
+        <div>
+            <h3>Брендови возила које поправљамо:</h3>
+            <img src="images/fiatlogo.png" alt="fiat" class="brand">
+            <img src="images/alfalogo.png" alt="alfa" class="brand">
+            <img src="images/hondalogo.png" alt="honda" class="brand">
+            <img src="images/fordlogo.png" alt="ford" class="brand">
+            <img src="images/renaultlogo.png" alt="renault" class="brand">
+        </div>
+        <p>Напомена: наш сервис није (још) овлашћен</p>
+    </div>
+    <div class="container pricelist">
+        <h3>Наш ценовник</h3>
+        <div>
+            <table id="pricelist">
+                <tr>
+                    <th>Радови</th>
+                    <th>Цена радова</th>
+                </tr>
+                <tr>
+                    <td>Велики сервис (без делова)</td>
+                    <td>5000</td>
+                </tr>
+                <tr>
+                    <td>Мали сервис (без делова)</td>
+                    <td>2000</td>
+                </tr>
+                <tr>
+                    <td>Замена гума (пречник фелне 16)</td>
+                    <td>1600</td>
+                </tr>
+            </table>
+        </div>
+        <a href="cenovnik.html" class="menuitem">Цео ценовник</a>
+    </div>
+    <div class="container aboutus">
+        <h3>О нама</h3>
+        <div>
+            <p>Аутомеханичарска радња "Милуновић" је почела са радом 2027. године, отворио ју је Жељко Милун. У почетку је радњу чинила радионица са једном дизалицом, а касније се проширила на четири дизалице. Жељкови синови су наставили породични посао, у плану је још један објекат и кренули су да поправљају Фиат, Форд и Рено...</p>
+            <a href="onama.html">више</a>
+        </div>
+    </div>
+    <div class="container contact">
+        <h3>Контaкт</h3>
+        <p>Фиксни телефон: 021/xxx-xxx</p>
+        <p>Мобилни телефон: 06x/xxx-xxx-xx</p>
+        <a href="kontakt.html" class="menuitem">Контакт страна</a>
+    </div>
+    <a href='https://www.freepik.com/photos/car'>Car photo created by standret - www.freepik.com</a>
+    <footer><p>Copyright: Car brand logos belong to Fiat, Honda, Alfa Rome, Ford and Renault, we do not sell any of their products</p></footer>
+    <script src="main.js"></script>
+</body>
+</html>
