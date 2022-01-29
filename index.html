@@ -4,27 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <!-- Style.css link -->
     <link rel="stylesheet" href="style.css">
     <title>Механика "Милуновић"</title>
 </head>
 <body>
+    <!-- Main header -->
     <h1>Механика "Милуновић"</h1>
+    <!-- Secondary header -->
     <h3>Сигурна кућа за Ваше возило</h3>
+    <!-- Main menu -->
     <div class="container">
-        <a href="#" class="menuitem">Почетна страна</a>
-        <a href="cenovnik.html" class="menuitem">Ценовник</a>
-        <a href="onama.html" class="menuitem">О нама</a>
-        <a href="kontakt.html" class="menuitem">Контакт</a>
+        <a href="#" class="menuitem" target="_parent">Почетна страна</a>
+        <a href="pricelist.html" class="menuitem" target="_parent">Ценовник</a>
+        <a href="aboutus.html" class="menuitem" target="_parent">О нама</a>
+        <a href="contact.html" class="menuitem" target="_parent">Контакт</a>
     </div>
+    <!-- Image gallery, look up main.js -->
     <div class="container gallery">
         <div class="imgandbuttons">
             <button class="imgrot" onclick="prevImage()">Претходна</button>
             <img src="images/galerija01.jpg" alt="Слика" id="mainimage">
             <button class="imgrot" onclick="nextImage()">Следећа</button>
         </div>
+        <!-- Circles which indicate image number -->
         <div class="rotationindexes">
             <span class="rotation active"></span>
             <span class="rotation"></span>
@@ -34,6 +41,7 @@
             <span class="rotation"></span>
         </div>
     </div>
+    <!-- Brands -->
     <div class="container brands">
         <div>
             <h3>Брендови возила које поправљамо:</h3>
@@ -45,10 +53,11 @@
         </div>
         <p>Напомена: наш сервис није (још) овлашћен</p>
     </div>
+    <!-- Pricelist with a link -->
     <div class="container pricelist">
         <h3>Наш ценовник</h3>
         <div>
-            <table id="pricelist">
+            <table class="tablepricelist">
                 <tr>
                     <th>Радови</th>
                     <th>Цена радова</th>
@@ -67,23 +76,28 @@
                 </tr>
             </table>
         </div>
-        <a href="cenovnik.html" class="menuitem">Цео ценовник</a>
+        <a href="pricelist.html" class="menuitem" target="_parent">Цео ценовник</a>
     </div>
+    <!-- Short about us with a link -->
     <div class="container aboutus">
         <h3>О нама</h3>
         <div>
             <p>Аутомеханичарска радња "Милуновић" је почела са радом 2027. године, отворио ју је Жељко Милун. У почетку је радњу чинила радионица са једном дизалицом, а касније се проширила на четири дизалице. Жељкови синови су наставили породични посао, у плану је још један објекат и кренули су да поправљају Фиат, Форд и Рено...</p>
-            <a href="onama.html">више</a>
+            <a href="aboutus.html" target="_parent">више</a>
         </div>
     </div>
+    <!-- Short contact with a lnik -->
     <div class="container contact">
         <h3>Контaкт</h3>
         <p>Фиксни телефон: 021/xxx-xxx</p>
         <p>Мобилни телефон: 06x/xxx-xxx-xx</p>
-        <a href="kontakt.html" class="menuitem">Контакт страна</a>
+        <a href="contact.html" class="menuitem" target="_parent">Контакт страна</a>
     </div>
+    <!-- Copyright -->
     <a href='https://www.freepik.com/photos/car'>Car photo created by standret - www.freepik.com</a>
+    <!-- Footer with another copyright -->
     <footer><p>Copyright: Car brand logos belong to Fiat, Honda, Alfa Rome, Ford and Renault, we do not sell any of their products</p></footer>
+    <!-- Main.js script tag -->
     <script src="main.js"></script>
 </body>
 </html>

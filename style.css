@@ -2,10 +2,14 @@
     margin: 0;
     padding: 0;
 }
+/* General setting above */
+/* Down are CSS specs for index.html and other pages */
 .fade{
+    /* Made this in order to achieve smooth opacity transition */
     opacity: 0;
 }
 body{
+    /* Font family */
     background-color: cornflowerblue;
     font-family: 'Oswald', sans-serif;
     justify-content: center;
@@ -54,6 +58,7 @@ h3{
     width: 80%;
 }
 .imgandbuttons{
+    /* A div made to align the image and movement buttons horizontally */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -109,7 +114,7 @@ h3{
 .pricelist{
     flex-direction: column;
 }
-#pricelist{
+.tablepricelist{
     border-radius: 5px 5px;
     display: flex;
     font-size: 1.5vw;
@@ -136,4 +141,9 @@ footer{
     color: black;
     justify-content: center;
     padding: 3%;
+}
+/* Down - CSS specs for the pricelist page */
+.wide > td, th{
+    /* In order to make the main table wider */
+    width: 40vw;
 }
