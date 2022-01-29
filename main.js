@@ -14,7 +14,8 @@ function rotateForward(){
     setTimeout(function (){
         mainimage.src = src;
         mainimage.classList.remove('fade');
-    }, 1000);
+    }, 1300);
+    
 }
 function rotateBackwards(){
     rotationindexes[imgcounter - 1].classList.remove('active');
