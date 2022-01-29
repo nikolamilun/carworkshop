@@ -15,6 +15,11 @@ body{
     justify-content: center;
     align-items: center;
 }
+#logo{
+    width: 20%;
+    border-radius: 20px 20px;
+    display: flex;
+}
 h1{
     display: flex;
     justify-content: center;
@@ -114,6 +119,10 @@ h3{
 .pricelist{
     flex-direction: column;
 }
+.pricelist > div{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
 .tablepricelist{
     border-radius: 5px 5px;
     display: flex;
@@ -147,3 +156,5 @@ footer{
     /* In order to make the main table wider */
     width: 40vw;
 }
+/* Down - CSS specs for the about us page */
+
