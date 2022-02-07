@@ -150,6 +150,8 @@ footer{
     color: black;
     justify-content: center;
     padding: 3%;
+    flex-direction: column;
+    align-items: center;
 }
 /* Down - CSS specs for the pricelist page */
 .wide > td, th{
@@ -157,4 +159,28 @@ footer{
     width: 40vw;
 }
 /* Down - CSS specs for the about us page */
+.aboutus > p, .staff > p{
+    padding: 2%;
+}
+iframe{
+    width: 70%;
+    height: 30vw;
+}
+.staffcont{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.staff{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+    font-size: 1.5vw;
+}
+.staff > img{
+    width: 100%;
+}
 

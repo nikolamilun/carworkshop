@@ -1,3 +1,4 @@
+// image slider
 let mainimage = document.querySelector('#mainimage');
 let imgcounter = 1;
 let tajmer = setInterval(nextImage, 5000);
