@@ -183,4 +183,9 @@ iframe{
 .staff > img{
     width: 100%;
 }
-
+/* Down - CSS spects for the contact page */
+.contactdiv{
+    font-size: 3vw;
+    display: flex;
+    flex-direction: column;
+}
